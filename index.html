@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design </title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+
+    <link rel="icon" href="images/icon-1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- header Design -->
+     <header class="header">
+        <a href="#" class="logo">Port<span>folio</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+     </header>
+
+     <!-- home section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sumit Srivastav</h1>
+            <h3>And I'am a <span class="multiple-text"></span></h3>
+            <p>Hello there! It's me Sumit Srivastav, a trusted and honesty web designer and developer on a mission to transform ideas into visually stunning digital experience. <br> With a keen eye for detail and a love for pixel-perfect design, I specialize in crafting
+                websites that not only look beautiful but also deliver seamless user experiences, with full responsiveness.</p>
+                 <div class="social-media">
+                    <a href="https://github.com/Sumit43246"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/itz_official_boy_xr/"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://x.com/Sumit_43246_"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100073174359992"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://t.me/itz_official_boy_xr"><i class='bx bxl-telegram'></i></a>
+                 </div>
+                 <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/photo1.png" alt="">
+        </div>
+    </section>
+
+    <!-- About section Design -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img id="abt-pic" src="images/photo2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About  <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p id="default-text">Hello there! It's me Sumit Srivastav,I am 16-year-old from delhi... ,A trusted and honesty web designer and developer on a mission to transform ideas into visually stunning digital experience. <br> With a keen eye for detail and a love for pixel-perfect design, I specialize in crafting
+                websites that not only look beautiful but also deliver seamless user experiences, with full responsiveness.</p>
+
+            <p id="another-text">
+                I am a 11th Class School Student,
+                Who has very interest in Web development
+                and Programming Languages.
+            </p>
+            <a href="#about" class="btn" onclick="toggelText()">Read More</a>
+        </div>
+     </section>
+
+     <!-- services section Design -->
+      <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.
+                </p>
+                <a href="#contact" class="btn">Let's Connect</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Graphic design is “the art and practice of planning and projecting ideas and experiences with visual and textual content,”                </p>
+                <a href="#contact" class="btn">Let's Connect</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>The promotion of brands to connect with potential customers using the internet and other forms of digital communication.
+                </p>
+                <a href="#contact" class="btn">Let's Connect</a>
+            </div>
+        </div>
+      </section>
+
+      <!-- skill section -->
+       <section id="skills" class="skills">
+            <div class="main-text">
+                <h2 class="heading">My <span>Skill</span></h2>
+            </div>
+
+            <div class="skill-main">
+                <div class="skill-left">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p id="fnts">HTML</p>
+                            <p id="fnts">72%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="Html"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p id="fnts">Figma</p>
+                            <p id="fnts">90%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="Figma"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p id="fnts">Javascript</p>
+                            <p id="fnts">80%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="Javascript"></span>
+                        </div>
+                    </div>
+                     <div class="skill-bar">
+                        <div class="info">
+                            <p id="fnts">CSS</p>
+                            <p id="fnts">62%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="CSS"></span>
+                        </div>
+                    </div>
+
+
+            </div>
+            <div class="skill right">
+                <h3>Professional Skills</h3>
+                <div class="professtional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big id="fntb">90%</big>
+                            <small id="fnts">Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big id="fntb">80%</big>
+                            <small id="fnts">Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big id="fntb">55%</big>
+                            <small id="fnts">Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big id="fntb">70%</big>
+                            <small id="fnts">Communication</small>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+       </section>
+     
+     <!-- Portfolio section Design -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class=portfolio-container>
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facilis.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section Design -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="8ece33b1-eb42-4679-8587-b16416d7b6c7">
+            <div class="input-box">
+                <input type="text" name="fullName" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="text" name="Subject" placeholder="Subject">
+            </div>
+            <textarea name="msg" id="" cols="30" rows="10" placeholder="Write Your Message here...."></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+     </section>
+
+     <!-- footer Design -->
+     <footer>
+         
+         
+         <div class="footer-text">
+            <p>Copyright & copy; 2024 by Sumit Srivastav | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a id="fl" href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+        </footer>
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- typed js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>
