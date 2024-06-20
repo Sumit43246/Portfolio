@@ -92,7 +92,7 @@ section{
 
 
 #menu-icon{
-    font-size: 3.6rem;
+    font-size: 4rem;
     z-index: 10001;
     cursor: pointer;
     margin-left: 25px;
@@ -711,7 +711,7 @@ footer{
     }
 
     .footer p{
-        font-size: .9rem;
+        font-size: .8rem;
     }
 }
 
@@ -726,6 +726,10 @@ footer{
 @media (max-width: 420px){
     html{
         font-size: 50%;
+    }
+
+    .footer p{
+        font-size: .6rem;
     }
 }
 
@@ -748,19 +752,16 @@ footer{
         width: 90vw;
     }
 
-    .footer{
-        flex-direction: column-reverse;
-    }
-
-    .footer p{
-        text-align: center;
-        margin-top: 2rem;
-    }
-
     .social-media {
         margin: 10px;
         word-spacing: 10px;
+        font-size: 3rem;
     }
+
+    #btn{
+        align-items: center;
+    }
+
 }
 
 @media(max-width: 290){
