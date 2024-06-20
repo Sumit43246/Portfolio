@@ -43,15 +43,17 @@ window.onscroll = () => {
 /*==================== scroll reveal ====================*/
 ScrollReveal({
     reset: true,
-    distance:'80px',
+    distance:'200px',
     duration: 2000,
     delay: 200
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'top' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
+ScrollReveal().reveal('.skill-left', { origin: 'top' });
+ScrollReveal().reveal('.skill.right', { origin: 'bottom' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
@@ -89,9 +91,10 @@ function toggelText(){
   for(let i = 0; i < dots ; i++){
        points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
      }
+     
      elem.innerHTML = points;
      const pointsMarked = elem.querySelectorAll('.points');
   for(let i = 0; i<percent; i++){
-    pointsMarked[i].classList.add('marked')
+    pointsMarked[i].classList.add('marked'
     }
  })
